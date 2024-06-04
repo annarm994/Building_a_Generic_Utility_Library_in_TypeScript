@@ -28,12 +28,3 @@ TypeScript generics to create a utility library that provides functions for arra
     ```bash
     npx tsc --init
     ```
-
-## Functions
-
-A generic identity function that takes an argument of type `T` and returns a value of type `T`.
-
-```typescript
-export function identity<T>(value: T): T {
-  return value;
-}
